@@ -6,7 +6,7 @@ const PORT = 3000;
 
 // Root route
 app.get("/", (_req: Request, res: Response) => {
-  res.send("Welcome with cicd");
+  res.send("Welcome with corrected cicd");
 });
 
 // Start server
