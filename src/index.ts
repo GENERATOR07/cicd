@@ -6,7 +6,7 @@ const PORT = 3000;
 
 // Root route
 app.get("/", (_req: Request, res: Response) => {
-  res.send("Welcome with corrected cicd 2");
+  res.send("Welcome cicd with docker");
 });
 
 // Start server
